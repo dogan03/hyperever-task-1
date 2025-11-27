@@ -56,8 +56,6 @@ chmod +x run_simulation.sh
 ./run_simulation.sh
 ```
 
-**That's it!** The script handles everything: building, running the simulation, and generating plots.
-
 ---
 
 ## Manual Build
