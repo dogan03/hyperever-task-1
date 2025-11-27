@@ -4,7 +4,7 @@ Model Predictive Control implementation for stabilizing an inverted pendulum (ca
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 
@@ -24,7 +24,7 @@ hyperever-task-1/
 
 ---
 
-## 📚 Documentation
+## Documentation
 
 | File                   | Description                                           |
 | ---------------------- | ----------------------------------------------------- |
@@ -34,7 +34,7 @@ hyperever-task-1/
 
 ---
 
-## 🔧 Dependencies
+## Dependencies
 
 ```bash
 # Install system libraries
@@ -46,7 +46,7 @@ pip install matplotlib pandas
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Make script executable
@@ -60,7 +60,7 @@ chmod +x run_simulation.sh
 
 ---
 
-## 🛠️ Manual Build
+## Manual Build
 
 ```bash
 # Build
@@ -77,14 +77,14 @@ cd .. && python3 plot_results.py
 
 ---
 
-## 🎮 Controls
+## Controls
 
 - **ESC** - Exit simulation
 - **Close Window** - End simulation
 
 ---
 
-## 📊 Output Files
+## Output Files
 
 **mpc_data.csv**
 
@@ -97,46 +97,3 @@ cd .. && python3 plot_results.py
 - Shows stabilization performance
 
 ![MPC Stabilization Results](mpc_results.png)
-
----
-
-## ⚙️ System Parameters
-
-**Physical:**
-
-- Cart mass: 1.0 kg
-- Pole mass: 0.2 kg
-- Pole length: 0.5 m
-- Gravity: 9.81 m/s²
-
-**Control:**
-
-- MPC horizon: 30 steps (0.6 seconds)
-- Timestep: 0.02s (50 Hz)
-- Force limit: ±50 N
-- Duration: 10 seconds
-
-**Initial Conditions:**
-
-- Random angle: ±20°
-- Position: 0
-- All velocities: 0
-
----
-
-## 📈 Expected Results
-
-- **Stabilization time:** ~2 seconds
-- **Final angle:** Near 0° (upright)
-- **Cart position:** Minimal drift, near origin
-- **Control:** Smooth forces within limits
-
----
-
-## 📝 License
-
-Academic project for Hyperever Assignment.
-
-```
-
-```
